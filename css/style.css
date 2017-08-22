@@ -1,0 +1,214 @@
+body {
+  margin: auto;
+  background-color: black;
+}
+
+nav {
+  position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background: #ff3333;
+    z-index: 1;
+}
+
+h1 {
+  margin-left: 50px;
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.nav-bar {
+  margin-top: 40px;
+  font-family: 'Mada', sans-serif;
+font-size: 20px;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+font-size: 60px;
+font: white;
+}
+
+
+main {
+  width:100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+section.Home {
+  height: 800px;
+  background-image: url(https://static.pexels.com/photos/74780/winter-road-arrow-74780.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+  font-family: 'Mada', sans-serif;
+font-size: 50px;
+}
+
+section.About-Me {
+  height: 600px;
+background:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   border-top: 10px solid black;
+
+}
+
+h5 {
+  font-family: 'Mada', sans-serif;
+font-size: 20px;
+}
+
+section.About-Me-Section {
+  width: 65%;
+  height: 65%;
+  background: white;
+  padding: 3%;
+}
+
+section.Services {
+  height: 600px;
+background:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 10px solid black;
+}
+
+section.Services-Section {
+  width: 65%;
+  height: 65%;
+  background: white;
+  padding-top: 6%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  border: 3px solid #ff3333;
+}
+
+section.Portfolio {
+  height: 600px;
+  background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 10px solid black;
+
+}
+
+section.Portfolio-Section {
+  width: 65%;
+  height: 65%;
+  background: white;
+  padding-top: 6%
+}
+
+
+section.Contact {
+  height: 300px;
+  background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 10px solid black;
+
+}
+
+section.Contact-Section {
+  width: 65%;
+  height: 65%;
+  background: white;
+margin-bottom: 2%;
+}
+
+form {
+  line-height: 25px;
+  font-size: 15px;
+  list-style: none;
+}
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+input[type=button] {
+  background-color: #595959;
+  border: none;
+  color: white;
+  padding: 4px 15px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 1.25em;
+}
+
+input.message {
+  height: 100px !important;
+}
+
+a:link {
+    color: #FF9933;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: #FFCC33;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF9933;
+    font-weight: bold;
+}
+
+a:active {
+    color: #FF9933;
+    text-decoration: none;
+  }
+
+
+@media all and (max-width: 1280px) {
+
+
+
+
+}
+
+@media all and (max-width: 767px) {
+h1 {
+  font-size: 30px !important;
+}
+nav {
+   display: flex;
+   align-items: center;
+}
+
+  .nav-bar {
+    display: none;
+  }
+}
